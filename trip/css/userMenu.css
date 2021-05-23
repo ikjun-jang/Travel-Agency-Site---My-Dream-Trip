@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+	#container{
+		width: 900px;
+		margin: auto;
+	}
+	
+	.container{
+		position : relative;
+		margin : 0 auto;
+		width : 980px;
+	}
+	
+	
+	#title{
+		background-color: silver;
+		color: white
+		height:200px; 
+	}
+	
+	#sidebar{
+		background-color: brown;
+		width:200px;
+		float:left;
+	}
+	
+	#contents{
+		background-color: blue;
+		width: 480px;
+		float: left;
+	}
+	
+	.button{
+		text-decoration: none;
+		text-align: center;
+		font-size: 14px;
+		font-family: "나눔고딕";
+		padding: 10px 20px;
+		color: #b8caee;
+		border: 1px solid #f8e098;
+		background-color: #f0ece0;
+	}
+	.button:hover{
+		background-color: yellow;
+	}
+	.button:ACTIVE{
+		background-color: red;
+		color:blue;
+		position: relative;
+		top:2px;
+	}

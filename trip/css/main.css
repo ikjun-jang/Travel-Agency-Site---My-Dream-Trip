@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+/* body{
+	width:1000px;
+	height:100px;
+	margin:o;
+	padding:o;
+	position:absolute;
+	left: 100px;
+} */
+
+#head-Img{
+	float : left;
+	top:0px;
+	left:5px;
+	height:70px;
+	width : 200px;
+}
+#head-search{
+
+	margin : 26px auto;
+	width : 200px;
+	height : 70px;
+	
+}
+#searchHeader-img{
+	
+	widht : 30px;
+	height : 30px;
+}
+#head-login{
+	position : absolute;
+	right : 100px;
+	top : 0px;
+	width : 200px;
+}
+
+
+#head-login > ul{
+	width:200px;
+	list-style: none;
+	float:right;
+	margin-top:15px;
+	
+}
+#head-login > ul > li{
+	float:left;
+	margin-left:20px;
+}
+/*
+#headdiv{
+	width:100%;
+	height:80px;
+	position: relative;
+	top:0px;
+	left:0px;
+	background-color: white; 
+} */
